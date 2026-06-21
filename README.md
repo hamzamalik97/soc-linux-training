@@ -1,29 +1,36 @@
 # 🛡️ SOC Analyst Linux Training (15-Day Hands-on Program)
 
 ## 📌 Overview
-This repository documents my structured 15-day SOC Analyst Linux training using Linux Mint.  
-The focus is on building practical, real-world skills required for entry-level SOC (Security Operations Center) roles.
+This repository documents my structured **15-day SOC Analyst Linux training** using Linux Mint.
 
-The training is fully hands-on and includes Linux navigation, log analysis, process monitoring, and basic security investigation techniques.
+The goal is to build **real-world, job-ready skills** required for entry-level SOC (Security Operations Center) roles through hands-on practice.
+
+This training focuses on:
+- Linux system operations
+- Log analysis fundamentals
+- Process and file investigation
+- Security monitoring mindset (Blue Team approach)
 
 ---
 
 ## 💻 Environment
-- Operating System: Linux Mint (Ubuntu-based Linux distribution)
-- Focus Area: SOC Analyst Level 1 Skills
-- Approach: Practical + Scenario-Based Learning
+- 🖥️ OS: Linux Mint (Ubuntu-based Linux distribution)
+- 🎯 Focus: SOC Analyst Level 1 Skills
+- 🧪 Method: Hands-on + Scenario-based learning
+- 🔐 Domain: Cybersecurity / Blue Team / SOC Operations
 
 ---
 
-## 🎯 Training Objectives
-By the end of this program, I will be able to:
+## 🎯 Learning Objectives
 
-- Navigate Linux systems confidently
-- Analyze system and security logs
-- Identify suspicious processes and activity
-- Understand file permissions and user behavior
-- Perform basic incident investigation tasks
-- Prepare for SIEM tools (Splunk / Wazuh)
+By the end of this training, I will be able to:
+
+✔ Navigate Linux systems efficiently  
+✔ Analyze system and security logs  
+✔ Identify suspicious processes and activity  
+✔ Understand file permissions and user behavior  
+✔ Perform basic incident investigation tasks  
+✔ Prepare for SIEM tools like Splunk and Wazuh  
 
 ---
 
@@ -32,7 +39,7 @@ By the end of this program, I will be able to:
 | Day | Topic | Status |
 |-----|------|--------|
 | Day 1 | Linux Navigation Basics | ✔ Completed |
-| Day 2 | File Operations & Management | ⏳ Pending |
+| Day 2 | File Operations & Management | ✔ Completed |
 | Day 3 | Search & Filtering (grep, find) | ⏳ Pending |
 | Day 4 | Users & Identity | ⏳ Pending |
 | Day 5 | Permissions & Access Control | ⏳ Pending |
@@ -45,20 +52,31 @@ By the end of this program, I will be able to:
 
 ---
 
-## 🧠 Key Skills Being Developed
-- Linux Command Line Operations
-- System Navigation & Structure Understanding
-- Security Log Analysis
-- Process & Service Monitoring
-- Incident Investigation Basics
-- SOC Analyst Thinking Model
+## 🧠 Core Skills Being Developed
+
+- Linux Command Line Mastery  
+- File System Navigation & Structure  
+- Security Log Analysis  
+- Process & Service Monitoring  
+- Incident Investigation Workflow  
+- SOC Analyst Thinking Model (Blue Team mindset)
 
 ---
 
 ## 🎯 Purpose of This Project
-This project is part of my cybersecurity learning journey to build strong foundational skills for SOC Analyst roles and practical blue team operations.
+This project represents my journey into **Cybersecurity and SOC Operations**, focusing on building strong foundational and practical skills required for real-world security environments.
+
+It is designed as a **portfolio project** to demonstrate hands-on capability in Linux-based security analysis.
 
 ---
 
-## 🚀 Status
-Currently in progress — Day 1 completed successfully.
+## 🚀 Current Status
+🟢 Day 2 Completed  
+🟡 Training In Progress  
+🔵 Moving toward SOC readiness (Level 1)
+
+---
+
+## 📌 Next Step
+➡️ Day 3: Search & Filtering using `grep` and `find`  
+➡️ Real log investigation begins
