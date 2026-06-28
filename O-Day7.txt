@@ -1,0 +1,106 @@
+Script started on 2026-06-28 17:56:17+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="118" LINES="59"]
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ sudo systemctl start ssh
+[?2004l[sudo] password for hamza: ******      
+[0;1;31mFailed to start ssh.service: Unit ssh.service not found.[0m
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ sudo systemctl start ssh[K[K[K[K[K[K[K[K[Kenable
+[?2004l[0;1;31mToo few arguments.[0m
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ sudo systemctl enable ssh
+[?2004l[0;1;31mFailed to enable unit: Unit file ssh.service does not exist.[0m
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ systemctl is-active ssh
+[?2004linactive
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ systemct [Kl status net[K[K[KNwtwork[K[K[K[K[K[K[Knet[K[K[KNetworkManager 
+[?2004l[?1h=[0;1;32m●[0m NetworkManager.service - Network Manager[m
+     Loaded: loaded (]8;;file://hamza-Latitude-7490/usr/lib/systemd/system/NetworkManager.service/usr/lib/systemd/system/NetworkManager.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Sun 2026-06-28 22:48:38 GMT; 4h 49min left[m
+       Docs: ]8;;man:NetworkManager(8)man:NetworkManager(8)]8;;[m
+   Main PID: 710 (NetworkManager)[m
+      Tasks: 4 (limit: 9219)[m
+     Memory: 12.8M (peak: 28.6M)[m
+        CPU: 861ms[m
+     CGroup: /system.slice/NetworkManager.service[m
+             └─[0;38;5;245m710 /usr/sbin/NetworkManager --no-daemon[0m[m
+[m
+Jun 28 22:48:44 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782686924.2410] manager: NetworkManager state is n[m[7m>[27m
+Jun 28 22:48:44 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782686924.2428] device (wlp2s0): Activation: succe[m[7m>[27m
+Jun 28 22:48:44 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782686924.5899] manager: startup complete[m
+Jun 28 22:48:47 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782686927.6671] dhcp4 (wlp2s0): state changed new [m[7m>[27m
+Jun 28 22:48:47 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782686927.7943] dhcp4 (wlp2s0): state changed new [m[7m>[27m
+Jun 28 22:48:47 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782686927.7948] policy: set 'Auto Speednet _zunair[m[7m>[27m
+Jun 28 22:48:50 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782686930.8764] manager: NetworkManager state is n[m[7m>[27m
+Jun 28 22:48:50 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782686930.9998] agent-manager: agent[3d2e6dee283cf[m[7m>[27m
+Jun 28 17:53:45 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782669225.2027] manager: NetworkManager state is n[m[7m>[27m
+Jun 28 17:53:46 hamza-Latitude-7490 NetworkManager[710]: <info>  [1782669226.2760] manager: NetworkManager state is n[m[7m>[27m
+[7mlines 1-21/21 (END)[27m[K[K[?1l>
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ systemctl status NetworkManager [1P[1P[1P[1P[1P[1P[1@r[1@e[1@s[1@t[1@a[1@r[1@t[C[1@s[1@u[1@d[1@o[1@ 
+[?2004l[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ sudo systemctl restart NetworkManager [1P[1P[1P[1P[1P[1@l[1@o[1@a[1@d
+[?2004l[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ sudo systemctl reload NetworkManager [C[1P[1P[1P[1P[1P[1P[1@i[1@s[1@-[1@a[1@c[1@c[1@t[1@i[1P[1P[1P[1@t[1@i[1@v[1@e
+[?2004lactive
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ sudo systemctl is-active NetworkManager [1P[1P[1P[1P[1P[1P[1@e[1@n[1@a[1@b[1@l[1@e[1@d
+[?2004lenabled
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ [7msystemctl --version[27msystemctl --version
+[?2004l[0;1;39msystemd 255[0m (255.4-1ubuntu8.16)
+[0;1;32m+[0;32mPAM[0m [0;1;32m+[0;32mAUDIT[0m [0;1;32m+[0;32mSELINUX[0m [0;1;32m+[0;32mAPPARMOR[0m [0;1;32m+[0;32mIMA[0m [0;1;32m+[0;32mSMACK[0m [0;1;32m+[0;32mSECCOMP[0m [0;1;32m+[0;32mGCRYPT[0m [0;1;31m-[0;31mGNUTLS[0m [0;1;32m+[0;32mOPENSSL[0m [0;1;32m+[0;32mACL[0m [0;1;32m+[0;32mBLKID[0m [0;1;32m+[0;32mCURL[0m [0;1;32m+[0;32mELFUTILS[0m [0;1;32m+[0;32mFIDO2[0m [0;1;32m+[0;32mIDN2[0m [0;1;31m-[0;31mIDN[0m [0;1;32m+[0;32mIPTC[0m [0;1;32m+[0;32mKMOD[0m [0;1;32m+[0;32mLIBCRYPTSETUP[0m [0;1;32m+[0;32mLIBFDISK[0m [0;1;32m+[0;32mPCRE2[0m [0;1;31m-[0;31mPWQUALITY[0m [0;1;32m+[0;32mP11KIT[0m [0;1;32m+[0;32mQRENCODE[0m [0;1;32m+[0;32mTPM2[0m [0;1;32m+[0;32mBZIP2[0m [0;1;32m+[0;32mLZ4[0m [0;1;32m+[0;32mXZ[0m [0;1;32m+[0;32mZLIB[0m [0;1;32m+[0;32mZSTD[0m [0;1;31m-[0;31mBPF_FRAMEWORK[0m [0;1;31m-[0;31mXKBCOMMON[0m [0;1;32m+[0;32mUTMP[0m [0;1;32m+[0;32mSYSVINIT[0m default-hierarchy=unified
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ [7msystemctl list-units --type=service[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl list-units --type=service
+[?2004l[?1h=[0;4m [0m[0;4m [0m[0;4mUNIT                                                 [0m[0;4m [0m[0;4mLOAD  [0m[0;4m [0m[0;4mACTIVE[0m[0;4m [0m[0;4mSUB    [0m[0;4m [0m[0;4mDESCRIPTION                            [m[7m>[27m
+  accounts-daemon.service                               loaded active running Accounts Service[m
+  alsa-restore.service                                  loaded active exited  Save/Restore Sound Card State[m
+  apparmor.service                                      loaded active exited  Load AppArmor profiles[m
+  avahi-daemon.service                                  loaded active running Avahi mDNS/DNS-SD Stack[m
+  blk-availability.service                              loaded active exited  Availability of block devices[m
+  bluetooth.service                                     loaded active running Bluetooth service[m
+[0;1;31m●[0m[0;1;31m [0m[0;1;31mcasper-md5check.service                              [0m[0;1;31m [0mloaded [0;1;31mfailed[0m[0;1;31m [0m[0;1;31mfailed [0m[0;1;31m [0mcasper-md5check Verify Live ISO checksu[m[7m>[27m
+  colord.service                                        loaded active running Manage, Install and Generate Color Prof[m[7m>[27m
+  console-setup.service                                 loaded active exited  Set console font and keymap[m
+  cron.service                                          loaded active running Regular background program processing d[m[7m>[27m
+  cups-browsed.service                                  loaded active running Make remote CUPS printers available loc[m[7m>[27m
+  cups.service                                          loaded active running CUPS Scheduler[m
+  dbus.service                                          loaded active running D-Bus System Message Bus[m
+  finalrd.service                                       loaded active exited  Create final runtime dir for shutdown p[m[7m>[27m
+  getty@tty1.service                                    loaded active running Getty on tty1[m
+  irqbalance.service                                    loaded active running irqbalance daemon[m
+  kerneloops.service                                    loaded active running Tool to automatically collect and submi[m[7m>[27m
+  keyboard-setup.service                                loaded active exited  Set the console keyboard layout[m
+  kmod-static-nodes.service                             loaded active exited  Create List of Static Device Nodes[m
+  lightdm.service                                       loaded active running Light Display Manager[m
+  lm-sensors.service                                    loaded active exited  Initialize hardware monitoring sensors[m
+  lvm2-monitor.service                                  loaded active exited  Monitoring of LVM2 mirrors, snapshots e[m[7m>[27m
+  ModemManager.service                                  loaded active running Modem Manager[m
+  NetworkManager-wait-online.service                    loaded active exited  Network Manager Wait Online[m
+  NetworkManager.service                                loaded active running Network Manager[m
+  openvpn.service                                       loaded active exited  OpenVPN service[m
+  packagekit.service                                    loaded active running PackageKit Daemon[m
+  plymouth-quit-wait.service                            loaded active exited  Hold until boot process finishes up[m
+  plymouth-read-write.service                           loaded active exited  Tell Plymouth To Write Out Runtime Data[m
+  plymouth-start.service                                loaded active exited  Show Plymouth Boot Screen[m
+  polkit.service                                        loaded active running Authorization Manager[m
+  power-profiles-daemon.service                         loaded active running Power Profiles daemon[m
+  rsyslog.service                                       loaded active running System Logging Service[m
+  rtkit-daemon.service                                  loaded active running RealtimeKit Scheduling Policy Service[m
+  setvtrgb.service                                      loaded active exited  Set console scheme[m
+  switcheroo-control.service                            loaded active running Switcheroo Control Proxy service[m
+  systemd-backlight@backlight:intel_backlight.service   loaded active exited  Load/Save Screen Backlight Brightness o[m[7m>[27m
+  systemd-backlight@leds:dell::kbd_backlight.service    loaded active exited  Load/Save Screen Backlight Brightness o[m[7m>[27m
+  systemd-binfmt.service                                loaded active exited  Set Up Additional Binary Formats[m
+  systemd-fsck@dev-disk-by\x2duuid-620C\x2d3C5E.service loaded active exited  File System Check on /dev/disk/by-uuid/[m[7m>[27m
+  systemd-journal-flush.service                         loaded active exited  Flush Journal to Persistent Storage[m
+  systemd-journald.service                              loaded active running Journal Service[m
+  systemd-logind.service                                loaded active running User Login Management[m
+  systemd-modules-load.service                          loaded active exited  Load Kernel Modules[m
+  systemd-random-seed.service                           loaded active exited  Load/Save OS Random Seed[m
+  systemd-remount-fs.service                            loaded active exited  Remount Root and Kernel File Systems[m
+  systemd-resolved.service                              loaded active running Network Name Resolution[m
+  systemd-sysctl.service                                loaded active exited  Apply Kernel Variables[m
+  systemd-timesyncd.service                             loaded active running Network Time Synchronization[m
+  systemd-tmpfiles-setup-dev-early.service              loaded active exited  Create Static Device Nodes in /dev grac[m[7m>[27m
+  systemd-tmpfiles-setup-dev.service                    loaded active exited  Create Static Device Nodes in /dev[m
+  systemd-tmpfiles-setup.service                        loaded active exited  Create Volatile Files and Directories[m
+  systemd-udev-trigger.service                          loaded active exited  Coldplug All udev Devices[m
+  systemd-udevd.service                                 loaded active running Rule-based Manager for Device Events an[m[7m>[27m
+  systemd-update-utmp.service                           loaded active exited  Record System Boot/Shutdown in UTMP[m
+  systemd-user-sessions.service                         loaded active exited  Permit User Sessions[m
+  thermald.service                                      loaded active running Thermal Daemon Service[m
+[7mlines 1-58[27m[K[K[?1l>
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-06-28 18:00:49+00:00 [COMMAND_EXIT_CODE="130"]
