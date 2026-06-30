@@ -1,0 +1,933 @@
+Script started on 2026-06-30 17:56:33+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="118" LINES="59"]
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ cleartail   /var/log/syslog
+[?2004l2026-06-30T17:52:12.656430+00:00 hamza-Latitude-7490 dbus-daemon[1120]: [session uid=1000 pid=1120] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.99' (uid=1000 pid=2257 comm="/usr/bin/gnome-terminal.real" label="unconfined")
+2026-06-30T17:52:12.719813+00:00 hamza-Latitude-7490 systemd[1103]: Created slice app-org.gnome.Terminal.slice - Slice /app/org.gnome.Terminal.
+2026-06-30T17:52:12.732894+00:00 hamza-Latitude-7490 systemd[1103]: Starting gnome-terminal-server.service - GNOME Terminal Server...
+2026-06-30T17:52:13.136889+00:00 hamza-Latitude-7490 dbus-daemon[1120]: [session uid=1000 pid=1120] Successfully activated service 'org.gnome.Terminal'
+2026-06-30T17:52:13.137454+00:00 hamza-Latitude-7490 systemd[1103]: Started gnome-terminal-server.service - GNOME Terminal Server.
+2026-06-30T17:52:13.264703+00:00 hamza-Latitude-7490 systemd[1103]: Started vte-spawn-aa2887fe-5ffc-409d-a000-455e1c5bc84b.scope - VTE child process 2273 launched by gnome-terminal-server process 2261.
+2026-06-30T17:53:30.022938+00:00 hamza-Latitude-7490 systemd[1103]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/hamza/.launchpadlib/api.launchpad.net/cache).
+2026-06-30T17:54:00.035485+00:00 hamza-Latitude-7490 systemd[1]: Starting motd-news.service - Message of the Day...
+2026-06-30T17:54:00.095062+00:00 hamza-Latitude-7490 systemd[1]: motd-news.service: Deactivated successfully.
+2026-06-30T17:54:00.095429+00:00 hamza-Latitude-7490 systemd[1]: Finished motd-news.service - Message of the Day.
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ tail   /var/log/syslog[1P[1P[1P[1P[1@l[1@e[1@s[1@s
+[?2004l[?1049h[22;0;0t[?1h=2026-05-17T19:11:37.821928+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-remount-fs.service - Remount Root an d Kernel File Systems.
+2026-05-17T19:11:37.822263+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'lp'
+2026-05-17T19:11:37.822276+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'ppdev'
+2026-05-17T19:11:37.822282+00:00 hamza-Latitude-7490 systemd[1]: Finished lvm2-monitor.service - Monitoring of LVM2 mi rrors, snapshots etc. using dmeventd or progress polling.
+2026-05-17T19:11:37.822287+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'parport_pc'
+2026-05-17T19:11:37.822292+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Module 'ecryptfs' is built in
+2026-05-17T19:11:37.822297+00:00 hamza-Latitude-7490 systemd[1]: Finished keyboard-setup.service - Set the console key board layout.
+2026-05-17T19:11:37.822304+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'msr'
+2026-05-17T19:11:37.822313+00:00 hamza-Latitude-7490 systemd[1]: Activating swap swapfile.swap - /swapfile...
+2026-05-17T19:11:37.822319+00:00 hamza-Latitude-7490 systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Databa se was skipped because no trigger condition checks were met.
+2026-05-17T19:11:37.822325+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-journal-flush.service - Flush Journa l to Persistent Storage...
+2026-05-17T19:11:37.822330+00:00 hamza-Latitude-7490 systemd[1]: systemd-pstore.service - Platform Persistent Storage  Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+2026-05-17T19:11:37.822336+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-random-seed.service - Load/Save OS R andom Seed...
+2026-05-17T19:11:37.822348+00:00 hamza-Latitude-7490 systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipp ed because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-05-17T19:11:37.822354+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-modules-load.service - Load Kernel M odules.
+2026-05-17T19:11:37.822359+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - C reate Static Device Nodes in /dev gracefully.
+2026-05-17T19:11:37.822365+00:00 hamza-Latitude-7490 systemd[1]: Activated swap swapfile.swap - /swapfile.
+2026-05-17T19:11:37.822370+00:00 hamza-Latitude-7490 systemd[1]: Reached target swap.target - Swaps.
+2026-05-17T19:11:37.822375+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variab les...
+2026-05-17T19:11:37.822383+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-sysusers.service - Create System Use rs...
+2026-05-17T19:11:37.822388+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-random-seed.service - Load/Save OS R andom Seed.
+2026-05-17T19:11:37.822394+00:00 hamza-Latitude-7490 systemd-sysusers[340]: Creating group 'gamemode' with GID 987.
+2026-05-17T19:11:37.822400+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variab les.
+2026-05-17T19:11:37.822405+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-journal-flush.service - Flush Journa l to Persistent Storage.
+2026-05-17T19:11:37.822411+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-sysusers.service - Create System Use rs.
+2026-05-17T19:11:37.822416+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create  Static Device Nodes in /dev...
+2026-05-17T19:11:37.822423+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create  Static Device Nodes in /dev.
+2026-05-17T19:11:37.822428+00:00 hamza-Latitude-7490 systemd[1]: Reached target local-fs-pre.target - Preparation for  Local File Systems.
+2026-05-17T19:11:37.822434+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-udevd.service - Rule-based Manager f or Device Events and Files...
+2026-05-17T19:11:37.822441+00:00 hamza-Latitude-7490 systemd-udevd[354]: Using default interface naming scheme 'v255'.
+2026-05-17T19:11:37.822447+00:00 hamza-Latitude-7490 systemd[1]: Started systemd-udevd.service - Rule-based Manager fo r Device Events and Files.
+2026-05-17T19:11:37.822455+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-udev-trigger.service - Coldplug All  udev Devices.
+2026-05-17T19:11:37.822460+00:00 hamza-Latitude-7490 systemd[1]: Starting plymouth-start.service - Show Plymouth Boot  Screen...
+2026-05-17T19:11:37.822465+00:00 hamza-Latitude-7490 systemd[1]: Started plymouth-start.service - Show Plymouth Boot S creen.
+[7m/var/log/syslog[27m[K[K/[Kww[Koo[Krr[Kdd[K[K[K[K[Kss[Kuu[Kdd[Koo[K[1;1H2026-05-17T19:11:37.821928+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-remount-fs.service - Remount Root an [2;1Hd Kernel File Systems.
+[3;1H2026-05-17T19:11:37.822263+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'lp'
+[4;1H2026-05-17T19:11:37.822276+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'ppdev'
+[5;1H2026-05-17T19:11:37.822282+00:00 hamza-Latitude-7490 systemd[1]: Finished lvm2-monitor.service - Monitoring of LVM2 mi [6;1Hrrors, snapshots etc. using dmeventd or progress polling.
+[7;1H2026-05-17T19:11:37.822287+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'parport_pc'
+[8;1H2026-05-17T19:11:37.822292+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Module 'ecryptfs' is built in
+[9;1H2026-05-17T19:11:37.822297+00:00 hamza-Latitude-7490 systemd[1]: Finished keyboard-setup.service - Set the console key [10;1Hboard layout.
+[11;1H2026-05-17T19:11:37.822304+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'msr'
+[12;1H2026-05-17T19:11:37.822313+00:00 hamza-Latitude-7490 systemd[1]: Activating swap swapfile.swap - /swapfile...
+[13;1H2026-05-17T19:11:37.822319+00:00 hamza-Latitude-7490 systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Databa [14;1Hse was skipped because no trigger condition checks were met.
+[15;1H2026-05-17T19:11:37.822325+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-journal-flush.service - Flush Journa [16;1Hl to Persistent Storage...
+[17;1H2026-05-17T19:11:37.822330+00:00 hamza-Latitude-7490 systemd[1]: systemd-pstore.service - Platform Persistent Storage  [18;1HArchival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+[19;1H2026-05-17T19:11:37.822336+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-random-seed.service - Load/Save OS R [20;1Handom Seed...
+[21;1H2026-05-17T19:11:37.822348+00:00 hamza-Latitude-7490 systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipp [22;1Hed because of an unmet condition check (ConditionSecurity=measured-uki).
+[23;1H2026-05-17T19:11:37.822354+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-modules-load.service - Load Kernel M [24;1Hodules.
+[25;1H2026-05-17T19:11:37.822359+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - C [26;1Hreate Static Device Nodes in /dev gracefully.
+[27;1H2026-05-17T19:11:37.822365+00:00 hamza-Latitude-7490 systemd[1]: Activated swap swapfile.swap - /swapfile.
+[28;1H2026-05-17T19:11:37.822370+00:00 hamza-Latitude-7490 systemd[1]: Reached target swap.target - Swaps.
+[29;1H2026-05-17T19:11:37.822375+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variab [30;1Hles...
+[31;1H2026-05-17T19:11:37.822383+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-sysusers.service - Create System Use [32;1Hrs...
+[33;1H2026-05-17T19:11:37.822388+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-random-seed.service - Load/Save OS R [34;1Handom Seed.
+[35;1H2026-05-17T19:11:37.822394+00:00 hamza-Latitude-7490 systemd-sysusers[340]: Creating group 'gamemode' with GID 987.
+[36;1H2026-05-17T19:11:37.822400+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variab [37;1Hles.
+[38;1H2026-05-17T19:11:37.822405+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-journal-flush.service - Flush Journa [39;1Hl to Persistent Storage.
+[40;1H2026-05-17T19:11:37.822411+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-sysusers.service - Create System Use [41;1Hrs.
+[42;1H2026-05-17T19:11:37.822416+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create  [43;1HStatic Device Nodes in /dev...
+[44;1H2026-05-17T19:11:37.822423+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create  [45;1HStatic Device Nodes in /dev.
+[46;1H2026-05-17T19:11:37.822428+00:00 hamza-Latitude-7490 systemd[1]: Reached target local-fs-pre.target - Preparation for  [47;1HLocal File Systems.
+[48;1H2026-05-17T19:11:37.822434+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-udevd.service - Rule-based Manager f [49;1Hor Device Events and Files...
+[50;1H2026-05-17T19:11:37.822441+00:00 hamza-Latitude-7490 systemd-udevd[354]: Using default interface naming scheme 'v255'.
+[51;1H2026-05-17T19:11:37.822447+00:00 hamza-Latitude-7490 systemd[1]: Started systemd-udevd.service - Rule-based Manager fo [52;1Hr Device Events and Files.
+[53;1H2026-05-17T19:11:37.822455+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-udev-trigger.service - Coldplug All  [54;1Hudev Devices.
+[55;1H2026-05-17T19:11:37.822460+00:00 hamza-Latitude-7490 systemd[1]: Starting plymouth-start.service - Show Plymouth Boot  [56;1HScreen...
+[57;1H2026-05-17T19:11:37.822465+00:00 hamza-Latitude-7490 systemd[1]: Started plymouth-start.service - Show Plymouth Boot S [58;1Hcreen.
+[59;1H[1;1H2026-05-17T19:11:37.821928+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-remount-fs.service - Remount Root an [2;1Hd Kernel File Systems.
+[3;1H2026-05-17T19:11:37.822263+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'lp'
+[4;1H2026-05-17T19:11:37.822276+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'ppdev'
+[5;1H2026-05-17T19:11:37.822282+00:00 hamza-Latitude-7490 systemd[1]: Finished lvm2-monitor.service - Monitoring of LVM2 mi [6;1Hrrors, snapshots etc. using dmeventd or progress polling.
+[7;1H2026-05-17T19:11:37.822287+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'parport_pc'
+[8;1H2026-05-17T19:11:37.822292+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Module 'ecryptfs' is built in
+[9;1H2026-05-17T19:11:37.822297+00:00 hamza-Latitude-7490 systemd[1]: Finished keyboard-setup.service - Set the console key [10;1Hboard layout.
+[11;1H2026-05-17T19:11:37.822304+00:00 hamza-Latitude-7490 systemd-modules-load[306]: Inserted module 'msr'
+[12;1H2026-05-17T19:11:37.822313+00:00 hamza-Latitude-7490 systemd[1]: Activating swap swapfile.swap - /swapfile...
+[13;1H2026-05-17T19:11:37.822319+00:00 hamza-Latitude-7490 systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Databa [14;1Hse was skipped because no trigger condition checks were met.
+[15;1H2026-05-17T19:11:37.822325+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-journal-flush.service - Flush Journa [16;1Hl to Persistent Storage...
+[17;1H2026-05-17T19:11:37.822330+00:00 hamza-Latitude-7490 systemd[1]: systemd-pstore.service - Platform Persistent Storage  [18;1HArchival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+[19;1H2026-05-17T19:11:37.822336+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-random-seed.service - Load/Save OS R [20;1Handom Seed...
+[21;1H2026-05-17T19:11:37.822348+00:00 hamza-Latitude-7490 systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipp [22;1Hed because of an unmet condition check (ConditionSecurity=measured-uki).
+[23;1H2026-05-17T19:11:37.822354+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-modules-load.service - Load Kernel M [24;1Hodules.
+[25;1H2026-05-17T19:11:37.822359+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - C [26;1Hreate Static Device Nodes in /dev gracefully.
+[27;1H2026-05-17T19:11:37.822365+00:00 hamza-Latitude-7490 systemd[1]: Activated swap swapfile.swap - /swapfile.
+[28;1H2026-05-17T19:11:37.822370+00:00 hamza-Latitude-7490 systemd[1]: Reached target swap.target - Swaps.
+[29;1H2026-05-17T19:11:37.822375+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variab [30;1Hles...
+[31;1H2026-05-17T19:11:37.822383+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-sysusers.service - Create System Use [32;1Hrs...
+[33;1H2026-05-17T19:11:37.822388+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-random-seed.service - Load/Save OS R [34;1Handom Seed.
+[35;1H2026-05-17T19:11:37.822394+00:00 hamza-Latitude-7490 systemd-sysusers[340]: Creating group 'gamemode' with GID 987.
+[36;1H2026-05-17T19:11:37.822400+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variab [37;1Hles.
+[38;1H2026-05-17T19:11:37.822405+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-journal-flush.service - Flush Journa [39;1Hl to Persistent Storage.
+[40;1H2026-05-17T19:11:37.822411+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-sysusers.service - Create System Use [41;1Hrs.
+[42;1H2026-05-17T19:11:37.822416+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create  [43;1HStatic Device Nodes in /dev...
+[44;1H2026-05-17T19:11:37.822423+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create  [45;1HStatic Device Nodes in /dev.
+[46;1H2026-05-17T19:11:37.822428+00:00 hamza-Latitude-7490 systemd[1]: Reached target local-fs-pre.target - Preparation for  [47;1HLocal File Systems.
+[48;1H2026-05-17T19:11:37.822434+00:00 hamza-Latitude-7490 systemd[1]: Starting systemd-udevd.service - Rule-based Manager f [49;1Hor Device Events and Files...
+[50;1H2026-05-17T19:11:37.822441+00:00 hamza-Latitude-7490 systemd-udevd[354]: Using default interface naming scheme 'v255'.
+[51;1H2026-05-17T19:11:37.822447+00:00 hamza-Latitude-7490 systemd[1]: Started systemd-udevd.service - Rule-based Manager fo [52;1Hr Device Events and Files.
+[53;1H2026-05-17T19:11:37.822455+00:00 hamza-Latitude-7490 systemd[1]: Finished systemd-udev-trigger.service - Coldplug All  [54;1Hudev Devices.
+[55;1H2026-05-17T19:11:37.822460+00:00 hamza-Latitude-7490 systemd[1]: Starting plymouth-start.service - Show Plymouth Boot  [56;1HScreen...
+[57;1H2026-05-17T19:11:37.822465+00:00 hamza-Latitude-7490 systemd[1]: Started plymouth-start.service - Show Plymouth Boot S [58;1Hcreen.
+[59;1H...skipping...
+2026-05-18T18:50:59.766851+00:00 hamza-Latitude-7490 AptKit: INFO: InstallPackages() was called: dbus.Array([dbus.Stri ng('libatopology2t64'), dbus.String('libasound2t64'), dbus.String('libasound2-data'), dbus.String('avahi-autoipd'), db us.String('avahi-utils'), dbus.String('libavahi-common-data'), dbus.String('libavahi-core7'), dbus.String('avahi-daemo n'), dbus.String('libavahi-common3'), dbus.String('libavahi-glib1'), dbus.String('libavahi-client3'), dbus.String('bin d9-host'), dbus.String('bind9-dnsutils'), dbus.String('bind9-libs'), dbus.String('libcurl3t64-gnutls'), dbus.String('l ibcurl4t64'), dbus.String('curl'), dbus.String('libdjvulibre-text'), dbus.String('libdjvulibre21'), dbus.String('dnsma sq-base'), dbus.String('dpkg'), dbus.String('dpkg-dev'), dbus.String('libdpkg-perl'), dbus.String('libecal-2.0-3'), db us.String('evolution-data-server'), dbus.String('libedataserverui4-1.0-0t64'), dbus.String('evolution-data-server-comm on'), dbus.String('libebook-1.2-21t64'), dbus.String('libedata-book-1.2-27t64'), dbus.String('libedataserverui-1.2-4t6 4'), dbus.String('libedataserver-1.2-27t64'), dbus.String('gir1.2-edataserver-1.2'), dbus.String('libcamel-1.2-64t64') , dbus.String('libebook-contacts-1.2-4t64'), dbus.String('libedata-cal-2.0-2t64'), dbus.String('gir1.2-ecal-2.0'), dbu s.String('libebackend-1.2-11t64'), dbus.String('gir1.2-camel-1.2'), dbus.String('libexiv2-27'), dbus.String('libexpat1 '), dbus.String('firefox-locale-en'), dbus.String('firefox'), dbus.String('libfreetype6'), dbus.String('libgcc-13-dev' ), dbus.String('libstdc++-13-dev'), dbus.String('g++-13'), dbus.String('gcc-13'), dbus.String('cpp-13-x86-64-linux-gnu '), dbus.String('cpp-13'), dbus.String('g++-13-x86-64-linux-gnu'), dbus.String('gcc-13-x86-64-linux-gnu'), dbus.String ('gcc-13-base'), dbus.String('libgomp1'), dbus.String('libtsan2'), dbus.String('libhwasan0'), dbus.String('libgfortran 5'), dbus.String('libcc1-0'), dbus.String('libasan8'), dbus.String('libitm1'), dbus.String('libquadmath0'), dbus.Strin g('libubsan1'), dbus.String('liblsan0'), dbus.String('libstdc++6'), dbus.String('libatomic1'), dbus.String('gcc-14-bas e'), dbus.String('libgcc-s1'), dbus.String('libgdk-pixbuf2.0-bin'), dbus.String('gir1.2-gdkpixbuf-2.0'), dbus.String(' libgdk-pixbuf-2.0-0'), dbus.String('libgdk-pixbuf2.0-common'), dbus.String('libglib2.0-bin'), dbus.String('gir1.2-glib -2.0'), dbus.String('libglib2.0-data'), dbus.String('libglib2.0-0t64'), dbus.String('libc6'), dbus.String('locales'),  dbus.String('libc-dev-bin'), dbus.String('libc-bin'), dbus.String('libc6-dbg'), dbus.String('libc6-dev'), dbus.String( 'libgnutls30t64'), dbus.String('gstreamer1.0-gl'), dbus.String('libgstreamer-gl1.0-0'), dbus.String('gstreamer1.0-plug ins-base-apps'), dbus.String('gstreamer1.0-alsa'), dbus.String('gir1.2-gst-plugins-base-1.0'), dbus.String('gstreamer1 .0-x'), dbus.String('gstreamer1.0-plugins-base'), dbus.String('libgstreamer-plugins-base1.0-0'), dbus.String('libgstre amer-plugins-good1.0-0'), dbus.String('gstreamer1.0-gtk3'), dbus.String('gstreamer1.0-plugins-good'), dbus.String('gvf s-fuse'), dbus.String('gvfs-common'), dbus.String('gvfs-libs'), dbus.String('gvfs-backends'), dbus.String('gvfs'), dbu s.String('gvfs-daemons'), dbus.String('telnet'), dbus.String('inetutils-telnet'), dbus.String('intel-microcode'), dbus .String('klibc-utils'), dbus.String('libklibc'), dbus.String('kmod'), dbus.String('libkmod2'), dbus.String('liblcms2-u tils'), dbus.String('liblcms2-2'), dbus.String('libarchive13t64'), dbus.String('libcap2-bin'), dbus.String('libcap2'),  dbus.String('libpam-cap'), dbus.String('libpng16-16t64'), dbus.String('libsodium23'), dbus.String('libsoup-3.0-0'), d bus.String('libsoup-3.0-common'), dbus.String('gir1.2-soup-3.0'), dbus.String('libssh-4'), dbus.String('libssh-gcrypt- 4'), dbus.String('libtasn1-6'), dbus.String('libvpx9'), dbus.String('libxml2'), dbus.String('libxml-parser-perl'), dbu s.String('python3-mako'), dbus.String('libnghttp2-14'), dbus.String('libnss3'), dbus.String('ntfs-3g'), dbus.String('l ibntfs-3g89t64'), dbus.String('libopenjp2-7'), dbus.String('openssh-client'), dbus.String('libssl3t64'), dbus.String(' openssl'), dbus.String('libpolkit-agent-1-0'), dbus.String('polkitd'), dbus.String('libpolkit-gobject-1-0'), dbus.Stri ng('gir1.2-polkit-1.0'), dbus.String('pkexec'), dbus.String('policykit-1'), dbus.String('libprotobuf32t64'), dbus.Stri ng('python3-jwt'), dbus.String('python3.12'), dbus.String('libpython3.12-minimal'), dbus.String('libpython3.12t64'), d bus.String('python3.12-minimal'), dbus.String('libpython3.12-stdlib'), dbus.String('python3-cryptography'), dbus.Strin g('python3-urllib3'), dbus.String('sed'), dbus.String('[7msudo[27m'), dbus.String('thunderbird'), dbus.String('thunderbird-lo cale-en'), dbus.String('libtiff6'), dbus.String('tzdata'), dbus.String('tzdata-legacy'), dbus.String('libsmartcols1'),  dbus.String('libmount1'), dbus.String('util-linux'), dbus.String('fdisk'), dbus.String('libfdisk1'), dbus.String('eje ct'), dbus.String('libuuid1'), dbus.String('uuid-runtime'), dbus.String('rfkill'), dbus.String('mount'), dbus.String(' libblkid1'), dbus.String('bsdutils'), dbus.String('bsdextrautils'), dbus.String('xxd'), dbus.String('vim-common'), dbu s.String('vim-tiny'), dbus.String('libjavascriptcoregtk-4.1-0'), dbus.String('gir1.2-javascriptcoregtk-4.1'), dbus.Str ing('gir1.2-webkit2-4.1'), dbus.String('libjavascriptcoregtk-6.0-1'), dbus.String('libwebkit2gtk-4.1-0'), dbus.String( 'libwebkitgtk-6.0-4'), dbus.String('wireless-regdb'), dbus.String('xdg-dbus-proxy'), dbus.String('linux-base'), dbus.S tring('linux-headers-generic-hwe-24.04'), dbus.String('linux-generic-hwe-24.04'), dbus.String('linux-image-generic-hwe -24.04'), dbus.String('linux-libc-dev'), dbus.String('alsa-ucm-conf'), dbus.String('apparmor'), dbus.String('libapparm or1'), dbus.String('libctf-nobfd0'), dbus.String('libbinutils'), dbus.String('binutils-x86-64-linux-gnu'), dbus.String ('libctf0'), dbus.String('binutils-common'), dbus.String('libsframe1'), dbus.String('libgprofng0'), dbus.String('binut ils'), dbus.String('libboost-iostreams1.83.0'), dbus.String('libboost-thread1.83.0'), dbus.String('libboost-locale1.83 .0'), dbus.String('cinnamon-dbg'), dbus.String('cinnamon'), dbus.String('cinnamon-common'), dbus.String('muffin'), dbu s.String('libmuffin0'), dbus.String('muffin-common'), dbus.String('gir1.2-meta-muffin-0.0'), dbus.String('muffin-dbg') , dbus.String('cinnamon-session-common'), dbus.String('cinnamon-session'), dbus.String('cinnamon-settings-daemon'), db us.String('coreutils'), dbus.String('distro-info-data'), dbus.String('libfwupd2'), dbus.String('fwupd'), dbus.String(' gdb'), dbus.String('libpam-gnome-keyring'), dbus.String('gnome-keyring'), dbus.String('gnome-keyring-pkcs11'), dbus.St ring('libgtk-4-common'), dbus.String('libgtk-4-1'), dbus.String('initramfs-tools-core'), dbus.String('initramfs-tools- :[K[K/[K...skipping...
+2026-05-18T18:50:59.767730+00:00 hamza-Latitude-7490 org.aptkit[5181]: 18:50:59 AptKit [INFO]: InstallPackages() was c alled: dbus.Array([dbus.String('libatopology2t64'), dbus.String('libasound2t64'), dbus.String('libasound2-data'), dbus .String('avahi-autoipd'), dbus.String('avahi-utils'), dbus.String('libavahi-common-data'), dbus.String('libavahi-core7 '), dbus.String('avahi-daemon'), dbus.String('libavahi-common3'), dbus.String('libavahi-glib1'), dbus.String('libavahi -client3'), dbus.String('bind9-host'), dbus.String('bind9-dnsutils'), dbus.String('bind9-libs'), dbus.String('libcurl3 t64-gnutls'), dbus.String('libcurl4t64'), dbus.String('curl'), dbus.String('libdjvulibre-text'), dbus.String('libdjvul ibre21'), dbus.String('dnsmasq-base'), dbus.String('dpkg'), dbus.String('dpkg-dev'), dbus.String('libdpkg-perl'), dbus .String('libecal-2.0-3'), dbus.String('evolution-data-server'), dbus.String('libedataserverui4-1.0-0t64'), dbus.String ('evolution-data-server-common'), dbus.String('libebook-1.2-21t64'), dbus.String('libedata-book-1.2-27t64'), dbus.Stri ng('libedataserverui-1.2-4t64'), dbus.String('libedataserver-1.2-27t64'), dbus.String('gir1.2-edataserver-1.2'), dbus. String('libcamel-1.2-64t64'), dbus.String('libebook-contacts-1.2-4t64'), dbus.String('libedata-cal-2.0-2t64'), dbus.St ring('gir1.2-ecal-2.0'), dbus.String('libebackend-1.2-11t64'), dbus.String('gir1.2-camel-1.2'), dbus.String('libexiv2- 27'), dbus.String('libexpat1'), dbus.String('firefox-locale-en'), dbus.String('firefox'), dbus.String('libfreetype6'),  dbus.String('libgcc-13-dev'), dbus.String('libstdc++-13-dev'), dbus.String('g++-13'), dbus.String('gcc-13'), dbus.Str ing('cpp-13-x86-64-linux-gnu'), dbus.String('cpp-13'), dbus.String('g++-13-x86-64-linux-gnu'), dbus.String('gcc-13-x86 -64-linux-gnu'), dbus.String('gcc-13-base'), dbus.String('libgomp1'), dbus.String('libtsan2'), dbus.String('libhwasan0 '), dbus.String('libgfortran5'), dbus.String('libcc1-0'), dbus.String('libasan8'), dbus.String('libitm1'), dbus.String ('libquadmath0'), dbus.String('libubsan1'), dbus.String('liblsan0'), dbus.String('libstdc++6'), dbus.String('libatomic 1'), dbus.String('gcc-14-base'), dbus.String('libgcc-s1'), dbus.String('libgdk-pixbuf2.0-bin'), dbus.String('gir1.2-gd kpixbuf-2.0'), dbus.String('libgdk-pixbuf-2.0-0'), dbus.String('libgdk-pixbuf2.0-common'), dbus.String('libglib2.0-bin '), dbus.String('gir1.2-glib-2.0'), dbus.String('libglib2.0-data'), dbus.String('libglib2.0-0t64'), dbus.String('libc6 '), dbus.String('locales'), dbus.String('libc-dev-bin'), dbus.String('libc-bin'), dbus.String('libc6-dbg'), dbus.Strin g('libc6-dev'), dbus.String('libgnutls30t64'), dbus.String('gstreamer1.0-gl'), dbus.String('libgstreamer-gl1.0-0'), db us.String('gstreamer1.0-plugins-base-apps'), dbus.String('gstreamer1.0-alsa'), dbus.String('gir1.2-gst-plugins-base-1. 0'), dbus.String('gstreamer1.0-x'), dbus.String('gstreamer1.0-plugins-base'), dbus.String('libgstreamer-plugins-base1. 0-0'), dbus.String('libgstreamer-plugins-good1.0-0'), dbus.String('gstreamer1.0-gtk3'), dbus.String('gstreamer1.0-plug ins-good'), dbus.String('gvfs-fuse'), dbus.String('gvfs-common'), dbus.String('gvfs-libs'), dbus.String('gvfs-backends '), dbus.String('gvfs'), dbus.String('gvfs-daemons'), dbus.String('telnet'), dbus.String('inetutils-telnet'), dbus.Str ing('intel-microcode'), dbus.String('klibc-utils'), dbus.String('libklibc'), dbus.String('kmod'), dbus.String('libkmod 2'), dbus.String('liblcms2-utils'), dbus.String('liblcms2-2'), dbus.String('libarchive13t64'), dbus.String('libcap2-bi n'), dbus.String('libcap2'), dbus.String('libpam-cap'), dbus.String('libpng16-16t64'), dbus.String('libsodium23'), dbu s.String('libsoup-3.0-0'), dbus.String('libsoup-3.0-common'), dbus.String('gir1.2-soup-3.0'), dbus.String('libssh-4'),  dbus.String('libssh-gcrypt-4'), dbus.String('libtasn1-6'), dbus.String('libvpx9'), dbus.String('libxml2'), dbus.Strin g('libxml-parser-perl'), dbus.String('python3-mako'), dbus.String('libnghttp2-14'), dbus.String('libnss3'), dbus.Strin g('ntfs-3g'), dbus.String('libntfs-3g89t64'), dbus.String('libopenjp2-7'), dbus.String('openssh-client'), dbus.String( 'libssl3t64'), dbus.String('openssl'), dbus.String('libpolkit-agent-1-0'), dbus.String('polkitd'), dbus.String('libpol kit-gobject-1-0'), dbus.String('gir1.2-polkit-1.0'), dbus.String('pkexec'), dbus.String('policykit-1'), dbus.String('l ibprotobuf32t64'), dbus.String('python3-jwt'), dbus.String('python3.12'), dbus.String('libpython3.12-minimal'), dbus.S tring('libpython3.12t64'), dbus.String('python3.12-minimal'), dbus.String('libpython3.12-stdlib'), dbus.String('python 3-cryptography'), dbus.String('python3-urllib3'), dbus.String('sed'), dbus.String('[7msudo[27m'), dbus.String('thunderbird'),  dbus.String('thunderbird-locale-en'), dbus.String('libtiff6'), dbus.String('tzdata'), dbus.String('tzdata-legacy'), d bus.String('libsmartcols1'), dbus.String('libmount1'), dbus.String('util-linux'), dbus.String('fdisk'), dbus.String('l ibfdisk1'), dbus.String('eject'), dbus.String('libuuid1'), dbus.String('uuid-runtime'), dbus.String('rfkill'), dbus.St ring('mount'), dbus.String('libblkid1'), dbus.String('bsdutils'), dbus.String('bsdextrautils'), dbus.String('xxd'), db us.String('vim-common'), dbus.String('vim-tiny'), dbus.String('libjavascriptcoregtk-4.1-0'), dbus.String('gir1.2-javas criptcoregtk-4.1'), dbus.String('gir1.2-webkit2-4.1'), dbus.String('libjavascriptcoregtk-6.0-1'), dbus.String('libwebk it2gtk-4.1-0'), dbus.String('libwebkitgtk-6.0-4'), dbus.String('wireless-regdb'), dbus.String('xdg-dbus-proxy'), dbus. String('linux-base'), dbus.String('linux-headers-generic-hwe-24.04'), dbus.String('linux-generic-hwe-24.04'), dbus.Str ing('linux-image-generic-hwe-24.04'), dbus.String('linux-libc-dev'), dbus.String('alsa-ucm-conf'), dbus.String('apparm or'), dbus.String('libapparmor1'), dbus.String('libctf-nobfd0'), dbus.String('libbinutils'), dbus.String('binutils-x86 -64-linux-gnu'), dbus.String('libctf0'), dbus.String('binutils-common'), dbus.String('libsframe1'), dbus.String('libgp rofng0'), dbus.String('binutils'), dbus.String('libboost-iostreams1.83.0'), dbus.String('libboost-thread1.83.0'), dbus .String('libboost-locale1.83.0'), dbus.String('cinnamon-dbg'), dbus.String('cinnamon'), dbus.String('cinnamon-common') , dbus.String('muffin'), dbus.String('libmuffin0'), dbus.String('muffin-common'), dbus.String('gir1.2-meta-muffin-0.0' ), dbus.String('muffin-dbg'), dbus.String('cinnamon-session-common'), dbus.String('cinnamon-session'), dbus.String('ci nnamon-settings-daemon'), dbus.String('coreutils'), dbus.String('distro-info-data'), dbus.String('libfwupd2'), dbus.St ring('fwupd'), dbus.String('gdb'), dbus.String('libpam-gnome-keyring'), dbus.String('gnome-keyring'), dbus.String('gno me-keyring-pkcs11'), dbus.String('libgtk-4-common'), dbus.String('libgtk-4-1'), dbus.String('initramfs-tools-core'), d :[K[K/[K...skipping...
+2026-05-18T18:51:00.359368+00:00 hamza-Latitude-7490 AptKit.Worker: INFO: Committing packages: dbus.Array([dbus.String ('libatopology2t64'), dbus.String('libasound2t64'), dbus.String('libasound2-data'), dbus.String('avahi-autoipd'), dbus .String('avahi-utils'), dbus.String('libavahi-common-data'), dbus.String('libavahi-core7'), dbus.String('avahi-daemon' ), dbus.String('libavahi-common3'), dbus.String('libavahi-glib1'), dbus.String('libavahi-client3'), dbus.String('bind9 -host'), dbus.String('bind9-dnsutils'), dbus.String('bind9-libs'), dbus.String('libcurl3t64-gnutls'), dbus.String('lib curl4t64'), dbus.String('curl'), dbus.String('libdjvulibre-text'), dbus.String('libdjvulibre21'), dbus.String('dnsmasq -base'), dbus.String('dpkg'), dbus.String('dpkg-dev'), dbus.String('libdpkg-perl'), dbus.String('libecal-2.0-3'), dbus .String('evolution-data-server'), dbus.String('libedataserverui4-1.0-0t64'), dbus.String('evolution-data-server-common '), dbus.String('libebook-1.2-21t64'), dbus.String('libedata-book-1.2-27t64'), dbus.String('libedataserverui-1.2-4t64' ), dbus.String('libedataserver-1.2-27t64'), dbus.String('gir1.2-edataserver-1.2'), dbus.String('libcamel-1.2-64t64'),  dbus.String('libebook-contacts-1.2-4t64'), dbus.String('libedata-cal-2.0-2t64'), dbus.String('gir1.2-ecal-2.0'), dbus. String('libebackend-1.2-11t64'), dbus.String('gir1.2-camel-1.2'), dbus.String('libexiv2-27'), dbus.String('libexpat1') , dbus.String('firefox-locale-en'), dbus.String('firefox'), dbus.String('libfreetype6'), dbus.String('libgcc-13-dev'),  dbus.String('libstdc++-13-dev'), dbus.String('g++-13'), dbus.String('gcc-13'), dbus.String('cpp-13-x86-64-linux-gnu') , dbus.String('cpp-13'), dbus.String('g++-13-x86-64-linux-gnu'), dbus.String('gcc-13-x86-64-linux-gnu'), dbus.String(' gcc-13-base'), dbus.String('libgomp1'), dbus.String('libtsan2'), dbus.String('libhwasan0'), dbus.String('libgfortran5' ), dbus.String('libcc1-0'), dbus.String('libasan8'), dbus.String('libitm1'), dbus.String('libquadmath0'), dbus.String( 'libubsan1'), dbus.String('liblsan0'), dbus.String('libstdc++6'), dbus.String('libatomic1'), dbus.String('gcc-14-base' ), dbus.String('libgcc-s1'), dbus.String('libgdk-pixbuf2.0-bin'), dbus.String('gir1.2-gdkpixbuf-2.0'), dbus.String('li bgdk-pixbuf-2.0-0'), dbus.String('libgdk-pixbuf2.0-common'), dbus.String('libglib2.0-bin'), dbus.String('gir1.2-glib-2 .0'), dbus.String('libglib2.0-data'), dbus.String('libglib2.0-0t64'), dbus.String('libc6'), dbus.String('locales'), db us.String('libc-dev-bin'), dbus.String('libc-bin'), dbus.String('libc6-dbg'), dbus.String('libc6-dev'), dbus.String('l ibgnutls30t64'), dbus.String('gstreamer1.0-gl'), dbus.String('libgstreamer-gl1.0-0'), dbus.String('gstreamer1.0-plugin s-base-apps'), dbus.String('gstreamer1.0-alsa'), dbus.String('gir1.2-gst-plugins-base-1.0'), dbus.String('gstreamer1.0 -x'), dbus.String('gstreamer1.0-plugins-base'), dbus.String('libgstreamer-plugins-base1.0-0'), dbus.String('libgstream er-plugins-good1.0-0'), dbus.String('gstreamer1.0-gtk3'), dbus.String('gstreamer1.0-plugins-good'), dbus.String('gvfs- fuse'), dbus.String('gvfs-common'), dbus.String('gvfs-libs'), dbus.String('gvfs-backends'), dbus.String('gvfs'), dbus. String('gvfs-daemons'), dbus.String('telnet'), dbus.String('inetutils-telnet'), dbus.String('intel-microcode'), dbus.S tring('klibc-utils'), dbus.String('libklibc'), dbus.String('kmod'), dbus.String('libkmod2'), dbus.String('liblcms2-uti ls'), dbus.String('liblcms2-2'), dbus.String('libarchive13t64'), dbus.String('libcap2-bin'), dbus.String('libcap2'), d bus.String('libpam-cap'), dbus.String('libpng16-16t64'), dbus.String('libsodium23'), dbus.String('libsoup-3.0-0'), dbu s.String('libsoup-3.0-common'), dbus.String('gir1.2-soup-3.0'), dbus.String('libssh-4'), dbus.String('libssh-gcrypt-4' ), dbus.String('libtasn1-6'), dbus.String('libvpx9'), dbus.String('libxml2'), dbus.String('libxml-parser-perl'), dbus. String('python3-mako'), dbus.String('libnghttp2-14'), dbus.String('libnss3'), dbus.String('ntfs-3g'), dbus.String('lib ntfs-3g89t64'), dbus.String('libopenjp2-7'), dbus.String('openssh-client'), dbus.String('libssl3t64'), dbus.String('op enssl'), dbus.String('libpolkit-agent-1-0'), dbus.String('polkitd'), dbus.String('libpolkit-gobject-1-0'), dbus.String ('gir1.2-polkit-1.0'), dbus.String('pkexec'), dbus.String('policykit-1'), dbus.String('libprotobuf32t64'), dbus.String ('python3-jwt'), dbus.String('python3.12'), dbus.String('libpython3.12-minimal'), dbus.String('libpython3.12t64'), dbu s.String('python3.12-minimal'), dbus.String('libpython3.12-stdlib'), dbus.String('python3-cryptography'), dbus.String( 'python3-urllib3'), dbus.String('sed'), dbus.String('[7msudo[27m'), dbus.String('thunderbird'), dbus.String('thunderbird-loca le-en'), dbus.String('libtiff6'), dbus.String('tzdata'), dbus.String('tzdata-legacy'), dbus.String('libsmartcols1'), d bus.String('libmount1'), dbus.String('util-linux'), dbus.String('fdisk'), dbus.String('libfdisk1'), dbus.String('eject '), dbus.String('libuuid1'), dbus.String('uuid-runtime'), dbus.String('rfkill'), dbus.String('mount'), dbus.String('li bblkid1'), dbus.String('bsdutils'), dbus.String('bsdextrautils'), dbus.String('xxd'), dbus.String('vim-common'), dbus. String('vim-tiny'), dbus.String('libjavascriptcoregtk-4.1-0'), dbus.String('gir1.2-javascriptcoregtk-4.1'), dbus.Strin g('gir1.2-webkit2-4.1'), dbus.String('libjavascriptcoregtk-6.0-1'), dbus.String('libwebkit2gtk-4.1-0'), dbus.String('l ibwebkitgtk-6.0-4'), dbus.String('wireless-regdb'), dbus.String('xdg-dbus-proxy'), dbus.String('linux-base'), dbus.Str ing('linux-headers-generic-hwe-24.04'), dbus.String('linux-generic-hwe-24.04'), dbus.String('linux-image-generic-hwe-2 4.04'), dbus.String('linux-libc-dev'), dbus.String('alsa-ucm-conf'), dbus.String('apparmor'), dbus.String('libapparmor 1'), dbus.String('libctf-nobfd0'), dbus.String('libbinutils'), dbus.String('binutils-x86-64-linux-gnu'), dbus.String(' libctf0'), dbus.String('binutils-common'), dbus.String('libsframe1'), dbus.String('libgprofng0'), dbus.String('binutil s'), dbus.String('libboost-iostreams1.83.0'), dbus.String('libboost-thread1.83.0'), dbus.String('libboost-locale1.83.0 '), dbus.String('cinnamon-dbg'), dbus.String('cinnamon'), dbus.String('cinnamon-common'), dbus.String('muffin'), dbus. String('libmuffin0'), dbus.String('muffin-common'), dbus.String('gir1.2-meta-muffin-0.0'), dbus.String('muffin-dbg'),  dbus.String('cinnamon-session-common'), dbus.String('cinnamon-session'), dbus.String('cinnamon-settings-daemon'), dbus .String('coreutils'), dbus.String('distro-info-data'), dbus.String('libfwupd2'), dbus.String('fwupd'), dbus.String('gd b'), dbus.String('libpam-gnome-keyring'), dbus.String('gnome-keyring'), dbus.String('gnome-keyring-pkcs11'), dbus.Stri ng('libgtk-4-common'), dbus.String('libgtk-4-1'), dbus.String('initramfs-tools-core'), dbus.String('initramfs-tools-bi :[K[K/[K...skipping...
+2026-05-18T18:51:00.359710+00:00 hamza-Latitude-7490 org.aptkit[5181]: 18:51:00 AptKit.Worker [INFO]: Committing packa ges: dbus.Array([dbus.String('libatopology2t64'), dbus.String('libasound2t64'), dbus.String('libasound2-data'), dbus.S tring('avahi-autoipd'), dbus.String('avahi-utils'), dbus.String('libavahi-common-data'), dbus.String('libavahi-core7') , dbus.String('avahi-daemon'), dbus.String('libavahi-common3'), dbus.String('libavahi-glib1'), dbus.String('libavahi-c lient3'), dbus.String('bind9-host'), dbus.String('bind9-dnsutils'), dbus.String('bind9-libs'), dbus.String('libcurl3t6 4-gnutls'), dbus.String('libcurl4t64'), dbus.String('curl'), dbus.String('libdjvulibre-text'), dbus.String('libdjvulib re21'), dbus.String('dnsmasq-base'), dbus.String('dpkg'), dbus.String('dpkg-dev'), dbus.String('libdpkg-perl'), dbus.S tring('libecal-2.0-3'), dbus.String('evolution-data-server'), dbus.String('libedataserverui4-1.0-0t64'), dbus.String(' evolution-data-server-common'), dbus.String('libebook-1.2-21t64'), dbus.String('libedata-book-1.2-27t64'), dbus.String ('libedataserverui-1.2-4t64'), dbus.String('libedataserver-1.2-27t64'), dbus.String('gir1.2-edataserver-1.2'), dbus.St ring('libcamel-1.2-64t64'), dbus.String('libebook-contacts-1.2-4t64'), dbus.String('libedata-cal-2.0-2t64'), dbus.Stri ng('gir1.2-ecal-2.0'), dbus.String('libebackend-1.2-11t64'), dbus.String('gir1.2-camel-1.2'), dbus.String('libexiv2-27 '), dbus.String('libexpat1'), dbus.String('firefox-locale-en'), dbus.String('firefox'), dbus.String('libfreetype6'), d bus.String('libgcc-13-dev'), dbus.String('libstdc++-13-dev'), dbus.String('g++-13'), dbus.String('gcc-13'), dbus.Strin g('cpp-13-x86-64-linux-gnu'), dbus.String('cpp-13'), dbus.String('g++-13-x86-64-linux-gnu'), dbus.String('gcc-13-x86-6 4-linux-gnu'), dbus.String('gcc-13-base'), dbus.String('libgomp1'), dbus.String('libtsan2'), dbus.String('libhwasan0') , dbus.String('libgfortran5'), dbus.String('libcc1-0'), dbus.String('libasan8'), dbus.String('libitm1'), dbus.String(' libquadmath0'), dbus.String('libubsan1'), dbus.String('liblsan0'), dbus.String('libstdc++6'), dbus.String('libatomic1' ), dbus.String('gcc-14-base'), dbus.String('libgcc-s1'), dbus.String('libgdk-pixbuf2.0-bin'), dbus.String('gir1.2-gdkp ixbuf-2.0'), dbus.String('libgdk-pixbuf-2.0-0'), dbus.String('libgdk-pixbuf2.0-common'), dbus.String('libglib2.0-bin') , dbus.String('gir1.2-glib-2.0'), dbus.String('libglib2.0-data'), dbus.String('libglib2.0-0t64'), dbus.String('libc6') , dbus.String('locales'), dbus.String('libc-dev-bin'), dbus.String('libc-bin'), dbus.String('libc6-dbg'), dbus.String( 'libc6-dev'), dbus.String('libgnutls30t64'), dbus.String('gstreamer1.0-gl'), dbus.String('libgstreamer-gl1.0-0'), dbus .String('gstreamer1.0-plugins-base-apps'), dbus.String('gstreamer1.0-alsa'), dbus.String('gir1.2-gst-plugins-base-1.0' ), dbus.String('gstreamer1.0-x'), dbus.String('gstreamer1.0-plugins-base'), dbus.String('libgstreamer-plugins-base1.0- 0'), dbus.String('libgstreamer-plugins-good1.0-0'), dbus.String('gstreamer1.0-gtk3'), dbus.String('gstreamer1.0-plugin s-good'), dbus.String('gvfs-fuse'), dbus.String('gvfs-common'), dbus.String('gvfs-libs'), dbus.String('gvfs-backends') , dbus.String('gvfs'), dbus.String('gvfs-daemons'), dbus.String('telnet'), dbus.String('inetutils-telnet'), dbus.Strin g('intel-microcode'), dbus.String('klibc-utils'), dbus.String('libklibc'), dbus.String('kmod'), dbus.String('libkmod2' ), dbus.String('liblcms2-utils'), dbus.String('liblcms2-2'), dbus.String('libarchive13t64'), dbus.String('libcap2-bin' ), dbus.String('libcap2'), dbus.String('libpam-cap'), dbus.String('libpng16-16t64'), dbus.String('libsodium23'), dbus. String('libsoup-3.0-0'), dbus.String('libsoup-3.0-common'), dbus.String('gir1.2-soup-3.0'), dbus.String('libssh-4'), d bus.String('libssh-gcrypt-4'), dbus.String('libtasn1-6'), dbus.String('libvpx9'), dbus.String('libxml2'), dbus.String( 'libxml-parser-perl'), dbus.String('python3-mako'), dbus.String('libnghttp2-14'), dbus.String('libnss3'), dbus.String( 'ntfs-3g'), dbus.String('libntfs-3g89t64'), dbus.String('libopenjp2-7'), dbus.String('openssh-client'), dbus.String('l ibssl3t64'), dbus.String('openssl'), dbus.String('libpolkit-agent-1-0'), dbus.String('polkitd'), dbus.String('libpolki t-gobject-1-0'), dbus.String('gir1.2-polkit-1.0'), dbus.String('pkexec'), dbus.String('policykit-1'), dbus.String('lib protobuf32t64'), dbus.String('python3-jwt'), dbus.String('python3.12'), dbus.String('libpython3.12-minimal'), dbus.Str ing('libpython3.12t64'), dbus.String('python3.12-minimal'), dbus.String('libpython3.12-stdlib'), dbus.String('python3- cryptography'), dbus.String('python3-urllib3'), dbus.String('sed'), dbus.String('[7msudo[27m'), dbus.String('thunderbird'), d bus.String('thunderbird-locale-en'), dbus.String('libtiff6'), dbus.String('tzdata'), dbus.String('tzdata-legacy'), dbu s.String('libsmartcols1'), dbus.String('libmount1'), dbus.String('util-linux'), dbus.String('fdisk'), dbus.String('lib fdisk1'), dbus.String('eject'), dbus.String('libuuid1'), dbus.String('uuid-runtime'), dbus.String('rfkill'), dbus.Stri ng('mount'), dbus.String('libblkid1'), dbus.String('bsdutils'), dbus.String('bsdextrautils'), dbus.String('xxd'), dbus .String('vim-common'), dbus.String('vim-tiny'), dbus.String('libjavascriptcoregtk-4.1-0'), dbus.String('gir1.2-javascr iptcoregtk-4.1'), dbus.String('gir1.2-webkit2-4.1'), dbus.String('libjavascriptcoregtk-6.0-1'), dbus.String('libwebkit 2gtk-4.1-0'), dbus.String('libwebkitgtk-6.0-4'), dbus.String('wireless-regdb'), dbus.String('xdg-dbus-proxy'), dbus.St ring('linux-base'), dbus.String('linux-headers-generic-hwe-24.04'), dbus.String('linux-generic-hwe-24.04'), dbus.Strin g('linux-image-generic-hwe-24.04'), dbus.String('linux-libc-dev'), dbus.String('alsa-ucm-conf'), dbus.String('apparmor '), dbus.String('libapparmor1'), dbus.String('libctf-nobfd0'), dbus.String('libbinutils'), dbus.String('binutils-x86-6 4-linux-gnu'), dbus.String('libctf0'), dbus.String('binutils-common'), dbus.String('libsframe1'), dbus.String('libgpro fng0'), dbus.String('binutils'), dbus.String('libboost-iostreams1.83.0'), dbus.String('libboost-thread1.83.0'), dbus.S tring('libboost-locale1.83.0'), dbus.String('cinnamon-dbg'), dbus.String('cinnamon'), dbus.String('cinnamon-common'),  dbus.String('muffin'), dbus.String('libmuffin0'), dbus.String('muffin-common'), dbus.String('gir1.2-meta-muffin-0.0'),  dbus.String('muffin-dbg'), dbus.String('cinnamon-session-common'), dbus.String('cinnamon-session'), dbus.String('cinn amon-settings-daemon'), dbus.String('coreutils'), dbus.String('distro-info-data'), dbus.String('libfwupd2'), dbus.Stri ng('fwupd'), dbus.String('gdb'), dbus.String('libpam-gnome-keyring'), dbus.String('gnome-keyring'), dbus.String('gnome -keyring-pkcs11'), dbus.String('libgtk-4-common'), dbus.String('libgtk-4-1'), dbus.String('initramfs-tools-core'), dbu :[K[K[?1l>[?1049l[23;0;0t[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ grep ""s"u"d"o" "[1P"[C /var/log/auth.log
+[?2004l2026-05-17T20:30:18.449769+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-05-17T20:30:18.451821+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-05-17T20:30:28.659707+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:35:43.725494+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-05-17T15:35:43.727147+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-05-17T15:40:18.660734+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:40:35.957188+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-05-17T15:40:35.957891+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-05-17T15:40:36.134128+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:41:19.349866+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install os-prober -y
+2026-05-17T15:41:19.351640+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-05-17T15:41:22.374177+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:41:53.456715+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/default/grub
+2026-05-17T15:41:53.458315+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-05-17T15:42:06.150258+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-05-17T15:42:06.151616+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-05-17T15:42:06.273151+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:43:33.585517+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:43:47.566844+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/update-grub
+2026-05-17T15:43:47.568599+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-05-17T15:43:50.595789+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:44:05.838544+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/reboot
+2026-05-17T15:44:05.840413+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-05-17T15:44:05.874412+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:48:52.075949+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/default/grub
+2026-05-17T15:48:52.077282+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-05-17T15:50:11.283091+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:50:22.896744+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/update-grub
+2026-05-17T15:50:22.899114+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-05-17T15:50:26.353046+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-17T15:50:33.480015+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/reboot
+2026-05-17T15:50:33.482142+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-05-17T15:50:33.525306+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-18T18:36:52.972205+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-05-18T18:36:52.975840+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-05-18T18:37:05.276003+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-18T18:37:52.923015+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-05-18T18:37:52.925482+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-05-18T18:38:08.849325+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-18T18:40:28.042336+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-05-18T18:40:28.044722+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-05-18T18:40:28.269874+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-05-18T18:50:55.284183+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-05-18T18:50:55.286482+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-05-18T18:50:55.415551+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-14T06:58:23.160837+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-14T06:58:23.161531+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-14T06:58:34.416638+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-14T06:59:23.160577+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-14T06:59:23.166715+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-14T06:59:28.158908+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T14:52:47.355054+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T14:52:47.358225+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T14:52:47.564115+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T14:55:17.354123+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-17T14:55:17.392653+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T14:55:33.164760+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T14:56:17.363322+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-17T14:56:17.365335+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T14:56:18.453004+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install qbittorrent~
+2026-06-17T14:56:18.453812+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T14:56:20.946238+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T14:56:21.362582+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T14:56:25.599950+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T14:56:25.601734+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T14:56:28.784932+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T14:56:28.794309+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install qbittorrent
+2026-06-17T14:56:28.795351+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T14:56:51.014243+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T14:57:17.581158+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T14:57:17.582490+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T14:57:17.716238+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:05:32.166346+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install openvpn
+2026-06-17T15:05:32.224316+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:05:37.863683+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:05:41.894296+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/openvpn --config yourfile.ovpn
+2026-06-17T15:05:41.898023+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:05:41.972469+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:06:05.811740+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install wireguard
+2026-06-17T15:06:05.814341+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:06:17.731310+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T15:06:17.731931+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T15:06:17.880379+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:06:23.357069+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:07:12.478437+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-06-17T15:07:12.484484+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:07:12.660757+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:07:23.903897+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2026-06-17T15:07:23.906335+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:07:24.766409+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:07:35.903780+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw default deny incoming
+2026-06-17T15:07:35.906172+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:07:38.003525+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:07:38.023015+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw default deny outgoing
+2026-06-17T15:07:38.025375+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:07:40.141143+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:07:47.904201+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T15:07:47.906250+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T15:07:48.080379+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:07:53.318261+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw allow out on tun0
+2026-06-17T15:07:53.320745+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:07:53.584747+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:08:02.667372+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw allow out on wg0
+2026-06-17T15:08:02.670420+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:08:02.967846+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:08:11.802935+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2026-06-17T15:08:11.806412+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:08:12.465569+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:08:22.428506+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw status
+2026-06-17T15:08:22.432348+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:08:22.586109+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:08:42.985441+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install wireguard
+2026-06-17T15:08:42.988680+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:08:44.062115+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:08:50.595797+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/wg-quick up wg0
+2026-06-17T15:08:50.598085+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:08:50.615362+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:12:04.876875+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/ls /etc/wireguard/
+2026-06-17T15:12:04.879986+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:12:04.886381+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:24:10.772734+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/wg show
+2026-06-17T15:24:10.773983+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:24:10.777634+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:24:13.154243+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/wg show
+2026-06-17T15:24:13.155150+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:24:13.157640+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:25:08.254442+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw status
+2026-06-17T15:25:08.257999+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:25:08.419098+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T15:25:16.827136+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw disable
+2026-06-17T15:25:16.829988+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T15:25:18.257318+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:49:08.445995+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw reset
+2026-06-17T16:49:08.447390+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:49:15.786752+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:49:23.995308+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw enable
+2026-06-17T16:49:23.997931+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:49:24.901742+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:49:31.437171+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-06-17T16:49:31.439777+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:49:31.588527+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:49:57.065439+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install wireguard
+2026-06-17T16:49:57.068759+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:49:58.325399+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:50:05.803018+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mv wg0.conf /etc/wireguard/
+2026-06-17T16:50:05.804788+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:50:05.811512+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:50:05.834212+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chmod 600 /etc/wireguard/wg0.conf
+2026-06-17T16:50:05.836491+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:50:05.897601+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:50:41.852733+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw disable
+2026-06-17T16:50:41.855846+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:50:43.342231+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:53:09.857493+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T16:53:09.860487+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:53:15.342402+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:53:15.352766+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install protonvpn
+2026-06-17T16:53:15.353550+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:53:15.842256+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:54:01.030101+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T16:54:01.033698+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:54:10.495191+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:54:10.504468+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install curl
+2026-06-17T16:54:10.505392+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:54:26.395225+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:54:35.344862+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/bash
+2026-06-17T16:54:35.347865+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:54:35.962886+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:54:37.551814+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T16:54:37.554695+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T16:54:37.792455+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:54:58.904765+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/bash
+2026-06-17T16:54:58.910575+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:54:59.186240+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:55:46.856887+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T16:55:46.860077+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:55:55.508044+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:55:55.518246+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install curl gnupg ca-certificates
+2026-06-17T16:55:55.519451+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:56:07.807336+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T16:56:07.808672+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T16:56:07.912734+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:56:12.353161+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:56:19.519055+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/gpg --dearmor -o /usr/share/keyrings/windscribe.gpg
+2026-06-17T16:56:19.523104+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T16:56:19.966371+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:57:07.551446+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-17T16:57:07.593088+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T16:57:15.469483+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T16:58:07.569158+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-17T16:58:07.571696+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T16:58:16.320337+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:02:42.832252+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw disable
+2026-06-17T17:02:42.891739+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:02:43.745804+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:04:31.868492+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw reset
+2026-06-17T17:04:31.870919+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:04:34.556752+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:05:09.426656+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw status
+2026-06-17T17:05:09.430851+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:05:09.685690+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:05:46.641987+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+2026-06-17T17:05:46.645509+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:05:46.786559+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:06:54.326229+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:06:54.330749+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:06:56.136030+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:07:09.394825+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/resolv.conf
+2026-06-17T17:07:09.397888+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:07:39.587292+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:07:46.416335+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chattr +i /etc/resolv.conf
+2026-06-17T17:07:46.472397+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:07:46.472644+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:08:25.311663+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw reset
+2026-06-17T17:08:25.315163+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:08:34.383720+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:08:36.561708+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw disable
+2026-06-17T17:08:36.563085+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:08:36.943658+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:08:50.697335+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:08:50.699614+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:08:52.204297+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:08:56.025133+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/rm -f /etc/resolv.conf
+2026-06-17T17:08:56.027890+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:08:56.036054+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:08:56.088136+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:08:56.092627+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:08:57.541699+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:09:25.797294+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt remove --purge wireguard wireguard-tools -y
+2026-06-17T17:09:25.800180+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:09:29.813965+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:09:37.856571+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/rm -rf /etc/wireguard
+2026-06-17T17:09:37.858279+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:09:37.863222+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:09:37.930441+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T17:09:37.932469+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T17:09:38.059394+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:09:44.671515+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/reboot
+2026-06-17T17:09:44.674284+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:09:44.777302+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:16:07.351898+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw reset
+2026-06-17T17:16:07.409398+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:16:14.807622+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:16:20.087204+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw disable
+2026-06-17T17:16:20.090048+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:16:20.829877+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:16:30.027113+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:16:30.031526+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:16:31.540527+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:16:58.331699+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:16:58.334874+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:16:59.695338+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:17:03.692292+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/resolvectl flush-caches
+2026-06-17T17:17:03.696415+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:17:03.774837+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:17:10.764483+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/resolv.conf
+2026-06-17T17:17:10.767681+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:18:06.938356+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:18:26.021509+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/systemd/resolved.conf
+2026-06-17T17:18:26.025447+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:19:44.870495+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:19:49.440515+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart systemd-resolved
+2026-06-17T17:19:49.443871+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:19:49.676512+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:19:54.485988+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+2026-06-17T17:19:54.489838+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:19:54.498445+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:20:32.875812+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/systemd/resolved.conf
+2026-06-17T17:20:32.880155+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:21:06.202796+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-17T17:21:06.205162+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T17:21:15.737268+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:21:52.248328+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:21:54.161488+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw disable
+2026-06-17T17:21:54.163795+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:21:54.713588+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:21:54.735197+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw reset -f
+2026-06-17T17:21:54.737721+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:21:54.856459+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:22:44.653990+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/rm -f /etc/resolv.conf
+2026-06-17T17:22:44.655137+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:22:44.658689+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:22:57.812447+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart systemd-resolved
+2026-06-17T17:22:57.817157+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:22:58.035724+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:23:02.393952+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/resolvectl dns wlp2s0 1.1.1.1 8.8.8.8
+2026-06-17T17:23:02.396787+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:23:02.417862+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:23:12.664803+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/resolvectl domain wlp2s0 ~.
+2026-06-17T17:23:12.668686+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:23:12.688676+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:23:17.393296+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:23:17.397912+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:23:18.897501+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:25:50.297941+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw disable
+2026-06-17T17:25:50.354059+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:25:50.816800+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:28:31.686288+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:28:31.688814+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:28:33.012950+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:28:48.414312+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart networking
+2026-06-17T17:28:48.416261+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:28:48.431231+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:28:52.248970+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart networking
+2026-06-17T17:28:52.302545+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:28:52.302726+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:31:41.624613+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/dhclient -r
+2026-06-17T17:31:41.680866+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:31:41.728376+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:31:45.510037+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/dhclient
+2026-06-17T17:31:45.510999+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:31:47.998716+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:32:20.515165+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/systemd/resolved.conf
+2026-06-17T17:32:20.517167+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:32:25.872302+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:32:35.877901+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/resolved.conf
+2026-06-17T17:32:35.878635+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:32:58.560481+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:33:15.181501+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/resolv.conf
+2026-06-17T17:33:15.183774+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:33:53.859316+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:36:15.629641+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:36:15.632147+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:36:17.103243+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:36:26.479653+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/nano /etc/resolv.conf
+2026-06-17T17:36:26.482464+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:36:32.344948+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:36:34.335475+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/sysctl -w net.ipv6.conf.all.disable_ipv6=1
+2026-06-17T17:36:34.337505+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:36:34.347557+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:36:34.375227+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/sysctl -w net.ipv6.conf.default.disable_ipv6=1
+2026-06-17T17:36:34.377805+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:36:34.384379+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:36:39.907715+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:36:39.910266+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:36:41.318737+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:40:43.550604+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:40:43.553111+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:40:47.790182+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:40:47.800326+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install -y openvpn dialog python3-pip
+2026-06-17T17:40:47.801255+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:41:03.718411+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:41:06.174659+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T17:41:06.176257+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T17:41:06.383304+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:41:53.313861+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:41:53.317495+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:41:57.533643+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:41:57.543048+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install -y openvpn dialog python3-pip
+2026-06-17T17:41:57.543966+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:41:58.487496+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:42:36.404850+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T17:42:36.408649+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T17:42:36.566848+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:42:37.253727+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:42:37.254827+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:42:40.810898+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:42:40.819486+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install -y pipx
+2026-06-17T17:42:40.820436+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:42:48.358641+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:43:38.291937+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install -y curl gnupg~
+2026-06-17T17:43:38.294542+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:43:38.854284+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:43:41.818936+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:43:41.821805+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:43:46.097260+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:43:46.107312+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install -y curl gnupg
+2026-06-17T17:43:46.108067+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:43:47.103170+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:43:49.672952+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/gpg --dearmor -o /usr/share/keyrings/protonvpn-archive-keyring.gpg
+2026-06-17T17:43:49.676284+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:44:05.434772+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:44:06.585441+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T17:44:06.587882+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T17:44:06.753065+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:44:09.531379+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/gpg --dearmor -o /usr/share/keyrings/protonvpn-archive-keyring.gpg
+2026-06-17T17:44:09.534279+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:44:25.243353+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:44:29.522842+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/tee /etc/apt/sources.list.d/protonvpn.list
+2026-06-17T17:44:29.524999+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:44:29.584604+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:44:36.972566+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:44:36.974786+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:46:18.249959+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:46:18.305195+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install proton-vpn-gnome-desktop
+2026-06-17T17:46:18.305415+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:46:18.765644+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:46:23.015576+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install proton-vpn-gnome-desktop
+2026-06-17T17:46:23.017722+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:46:23.556775+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:46:41.619770+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:46:41.622165+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:47:06.778957+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T17:47:06.781550+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T17:47:06.941768+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:47:25.597915+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:47:25.609043+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install proton-vpn-gnome-desktop
+2026-06-17T17:47:25.609962+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:47:26.190027+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:47:33.323485+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/rm /etc/apt/sources.list.d/protonvpn.list
+2026-06-17T17:47:33.326339+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:47:33.333985+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:47:33.361591+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:47:33.364538+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:47:37.522368+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:47:53.018327+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:47:53.019549+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:47:57.131238+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:48:00.397333+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:48:00.400330+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:48:04.953251+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:48:04.962828+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install -y wireguard resolvconf
+2026-06-17T17:48:04.964016+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:48:36.970674+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T17:48:36.977679+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T17:48:37.128317+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:48:40.654638+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:48:47.518665+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt update
+2026-06-17T17:48:47.522061+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:48:51.272666+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:48:51.281665+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/local/bin/apt install -y wireguard resolvconf
+2026-06-17T17:48:51.282764+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:48:52.267252+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:50:07.154509+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/lib/linuxmint/mintUpdate/dpkg_lock_check.sh
+2026-06-17T17:50:07.156831+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-17T17:50:07.418969+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:53:37.209975+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/rm -f /etc/resolv.conf
+2026-06-17T17:53:37.267802+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:53:37.268107+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:53:37.269228+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-17T17:53:37.270259+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:53:38.702863+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:53:38.738925+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw disable
+2026-06-17T17:53:38.743771+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:53:39.425168+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:54:07.842215+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/dhclient -r
+2026-06-17T17:54:07.845058+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:54:09.094827+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:54:09.115357+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/dhclient
+2026-06-17T17:54:09.118158+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:54:11.829756+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:55:14.136151+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw disable
+2026-06-17T17:55:14.138864+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:55:14.668768+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-17T17:55:14.687889+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/ufw reset
+2026-06-17T17:55:14.690094+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-17T17:55:17.768883+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-20T17:20:24.575890+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-20T17:20:24.580467+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-20T17:21:27.049259+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-21T17:43:09.100719+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-21T17:43:09.103822+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-21T17:44:12.885220+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-25T16:50:53.605252+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-25T16:50:53.607572+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-25T16:51:53.974680+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T15:18:50.445213+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-26T15:18:50.447286+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-26T15:21:00.401012+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T16:51:54.269641+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chown root report.txt
+2026-06-26T16:51:54.325739+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T16:51:54.325866+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T16:51:56.943800+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chown root report.txt
+2026-06-26T16:51:56.946237+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T16:51:56.951801+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T16:52:07.724771+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chown hamza report.txt
+2026-06-26T16:52:07.727192+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T16:52:07.733741+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T16:52:18.775548+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chown root report.txt
+2026-06-26T16:52:18.830662+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T16:52:18.830793+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T16:52:31.979112+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chown hamza report.txt
+2026-06-26T16:52:31.980735+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T16:52:31.985468+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T16:52:39.450632+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chown hamza report.txt
+2026-06-26T16:52:39.452905+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T16:52:39.459021+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:10:18.844124+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/groupadd analysts
+2026-06-26T17:10:18.899995+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:10:18.932623+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:10:21.582940+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/groupadd analysts
+2026-06-26T17:10:21.584999+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:10:21.591174+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:12:10.432659+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/groupmod -n blueteam analyts
+2026-06-26T17:12:10.435728+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:12:10.449398+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:12:16.749991+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/groupmod -n blueteam analsyts
+2026-06-26T17:12:16.751965+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:12:16.760274+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:12:42.003980+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/groupmod -n blueteam analysts
+2026-06-26T17:12:42.006059+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:12:42.090188+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:14:09.889642+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/usermod -aG blueteam hamza
+2026-06-26T17:14:09.891935+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:14:09.984421+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:14:26.006483+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/usermod -aG hamza hamza
+2026-06-26T17:14:26.008837+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:14:26.103718+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:15:24.649670+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chgrp blueteam report.txt
+2026-06-26T17:15:24.706016+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:15:24.706179+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:20:15.837917+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/1 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chown root report.txt
+2026-06-26T17:20:15.839112+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:20:15.842753+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:21:27.373580+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/1 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chgrp hamza report.txt
+2026-06-26T17:21:27.429677+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:21:27.429855+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:25:12.470374+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/usermod hamza -aG blueteam
+2026-06-26T17:25:12.472365+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:25:12.551315+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:26:45.302517+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/usermod -aG blueteam hamza
+2026-06-26T17:26:45.360302+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:26:45.373520+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:27:05.048188+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/usermod -aG blueteam report.txt
+2026-06-26T17:27:05.050940+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:27:05.062402+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:28:17.432617+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/usermod -aG blueteam hamza
+2026-06-26T17:28:17.435412+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:28:17.516742+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:30:19.410454+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chgrp blueteam report.txt
+2026-06-26T17:30:19.413964+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:30:19.422003+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:30:56.140645+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chown hamza report.txt
+2026-06-26T17:30:56.143081+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:30:56.149072+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:31:59.056749+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/bin/chgrp hamza report.txt
+2026-06-26T17:31:59.113150+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:31:59.113312+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:32:42.108477+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza/soc-analyst/day4 ; USER=root ; COMMAND=/usr/sbin/usermod -aG blueteam hamza
+2026-06-26T17:32:42.111134+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:32:42.193767+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:58:00.135410+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod root test.txt
+2026-06-26T17:58:00.136300+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:58:00.141584+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:58:11.285627+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod root test.txt
+2026-06-26T17:58:11.286587+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:58:11.290014+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:58:50.444011+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod root hamza
+2026-06-26T17:58:50.446442+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:58:50.453829+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T17:59:46.086687+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chown root tset.txt
+2026-06-26T17:59:46.089767+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T17:59:46.094840+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:00:07.871552+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chown root test.txt
+2026-06-26T18:00:07.873767+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:00:07.879484+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:00:49.229768+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chgrp blueteam test.txt
+2026-06-26T18:00:49.232367+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:00:49.237998+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:02:01.794308+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod test.txt hamza
+2026-06-26T18:02:01.850570+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:02:01.850721+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:02:28.313976+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod root hamza
+2026-06-26T18:02:28.315019+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:02:28.318562+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:02:38.477206+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod hamza root
+2026-06-26T18:02:38.479559+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:02:38.486908+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:04:07.862247+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chown test.txt hamza
+2026-06-26T18:04:07.864173+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:04:07.871695+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:04:59.387734+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chown hamza test.txt
+2026-06-26T18:04:59.390106+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:04:59.396417+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:05:36.666952+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod -aG hamza blueteam
+2026-06-26T18:05:36.669147+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:05:36.679032+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:05:50.125114+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod -aG bluetem hamza
+2026-06-26T18:05:50.127533+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:05:50.139090+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:05:58.385899+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod -aG blueteam hamza
+2026-06-26T18:05:58.388212+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:05:58.461949+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:07:02.654461+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chown root day2.txt
+2026-06-26T18:07:02.710380+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:07:02.713318+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:08:21.059828+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chgrp blueteam day2.txt
+2026-06-26T18:08:21.062389+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:08:21.067511+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:09:10.754640+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod -aG hamza hamza
+2026-06-26T18:09:10.757130+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:09:10.833055+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:09:41.624662+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod -aG blueteam hamza
+2026-06-26T18:09:41.626854+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:09:41.701088+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:10:51.747871+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chgrp day2.txt blueteam
+2026-06-26T18:10:51.748904+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:10:51.753405+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:11:11.657694+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chgrp blueteam day2.txt
+2026-06-26T18:11:11.659742+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:11:11.665116+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:12:17.849028+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chgrp test.txt hamza
+2026-06-26T18:12:17.904698+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:12:17.904864+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:12:32.486013+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chgrp hamza test.txt
+2026-06-26T18:12:32.487171+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:12:32.489948+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-26T18:12:49.397589+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chgrp hamza day2.txt
+2026-06-26T18:12:49.399424+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-26T18:12:49.404659+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-27T17:13:33.685258+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chown root report.txt
+2026-06-27T17:13:33.686660+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-27T17:13:33.691342+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-27T17:13:46.961610+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chown root test.txt
+2026-06-27T17:13:46.963488+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-27T17:13:46.968973+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-27T17:14:44.611547+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/chgrp blueteam test.txt
+2026-06-27T17:14:44.613595+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-27T17:14:44.620019+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-27T17:15:35.511568+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/sbin/usermod -aG blueteam hamza
+2026-06-27T17:15:35.514231+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-27T17:15:35.595911+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-27T17:21:39.056499+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-27T17:21:39.064965+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-27T17:21:58.600480+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-27T17:22:39.033306+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-27T17:22:39.036500+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-27T17:22:44.061586+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:53:20.102281+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl status NetworkManager
+2026-06-28T17:53:20.103537+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T17:53:22.909415+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:53:32.613433+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-06-28T17:53:32.668629+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T17:53:32.668772+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:56:35.888966+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/1 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2026-06-28T17:56:35.889935+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T17:56:35.954103+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:56:45.663358+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/1 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl enable
+2026-06-28T17:56:45.665066+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T17:56:45.674778+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:56:52.463261+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/1 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh
+2026-06-28T17:56:52.465057+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T17:56:52.482530+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:58:55.535244+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/1 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl restart NetworkManager
+2026-06-28T17:58:55.593635+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T17:58:56.815862+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:59:04.405786+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/1 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl reload NetworkManager
+2026-06-28T17:59:04.408174+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T17:59:04.535905+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:59:07.583032+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-28T17:59:07.585654+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-28T17:59:16.803696+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:59:18.177109+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/1 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl is-active NetworkManager
+2026-06-28T17:59:18.178145+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T17:59:18.186270+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T17:59:26.580495+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/1 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl is-enabled NetworkManager
+2026-06-28T17:59:26.583286+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T17:59:26.604359+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T18:00:07.587078+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-28T18:00:07.590510+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-28T18:00:12.086383+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T18:01:19.925591+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl list-units --type=services
+2026-06-28T18:01:19.927773+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T18:01:19.937670+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T18:03:11.967530+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl list-units --type=service
+2026-06-28T18:03:11.969874+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T18:03:13.623879+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T18:03:44.905356+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl list-units-files --type=service
+2026-06-28T18:03:44.907947+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T18:03:44.920150+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T18:04:06.057975+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl list-unit-files --type=service
+2026-06-28T18:04:06.114315+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T18:04:11.794852+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T18:15:44.823900+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl list-unit-files --type=service
+2026-06-28T18:15:44.880360+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T18:15:48.452513+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-28T18:22:11.170449+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/find / -name .log
+2026-06-28T18:22:11.229893+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-28T18:22:12.782384+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-29T17:31:56.613266+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-29T17:31:56.615488+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-29T17:32:04.132551+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-29T17:32:56.545312+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-29T17:32:56.549493+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-29T17:33:03.093682+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-29T17:59:57.238484+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/find -name Day.8txt
+2026-06-29T17:59:57.239951+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-29T17:59:57.299121+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-29T17:59:59.501921+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/find -name Day.8txt
+2026-06-29T17:59:59.503999+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-29T17:59:59.511449+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-29T18:00:06.708730+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/find -name Day.8txt
+2026-06-29T18:00:06.710718+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-29T18:00:06.954143+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:25:32.016953+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-30T05:25:32.018443+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-30T05:26:20.073343+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:26:31.970539+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/mint-refresh-cache
+2026-06-30T05:26:31.973098+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by (uid=1000)
+2026-06-30T05:26:36.335959+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:27:02.501087+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/find / -user hamza
+2026-06-30T05:27:02.502340+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-30T05:27:08.840451+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:28:33.247946+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/find /var/log -type f -name .log
+2026-06-30T05:28:33.250711+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-30T05:28:33.260193+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:28:49.454643+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/find /var/log -type f -name *.log
+2026-06-30T05:28:49.455657+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-30T05:28:49.459430+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:28:58.457998+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/find /var/log -type f -name .log
+2026-06-30T05:28:58.459759+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-30T05:28:58.465885+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:30:50.565827+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/find /var/log -type f -name *.log
+2026-06-30T05:30:50.567671+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-30T05:30:50.574717+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:48:13.958087+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl is-enable NetworkManager
+2026-06-30T05:48:14.015792+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-30T05:48:14.015937+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:48:20.454294+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl is-enabled NetworkManager
+2026-06-30T05:48:20.456346+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-30T05:48:20.527959+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+2026-06-30T05:48:26.930722+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K:    hamza : TTY=pts/0 ; PWD=/home/hamza ; USER=root ; COMMAND=/usr/bin/systemctl is-active NetworkManager
+2026-06-30T05:48:26.933301+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session opened for user root(uid=0) by hamza(uid=1000)
+2026-06-30T05:48:26.951042+00:00 hamza-Latitude-7490 [01;31m[Ksudo[m[K: pam_unix([01;31m[Ksudo[m[K:session): session closed for user root
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ grep "sudo" /var/log/auth.log[1P[1P[1P[1P[1@f[1@a[1@i[1@l[1@e[1@d
+[?2004l[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ grep "failed" /var/log/auth.log[1@-[1@i[1@ 
+[?2004l2026-05-18T18:49:18.101192+00:00 hamza-Latitude-7490 su[6182]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+2026-05-18T18:49:44.502135+00:00 hamza-Latitude-7490 su[6185]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+2026-06-17T15:11:12.835447+00:00 hamza-Latitude-7490 su[7628]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+2026-06-17T15:11:27.252359+00:00 hamza-Latitude-7490 su[7630]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+2026-06-25T16:46:04.977244+00:00 hamza-Latitude-7490 su[2270]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ grep -i "failed" /var/log/auth.log[1P[1P[1P[1P[1P[1P[1@s[1@s[1@h[1@d
+[?2004l[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ grep -i "sshd" /var/log/auth.log[1P[1@c
+[?2004l0
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ last
+[?2004lhamza    tty7         :0               Tue Jun 30 22:48    gone - no logout
+reboot   system boot  6.14.0-37-generi Tue Jun 30 22:47   still running
+hamza    tty7         :0               Tue Jun 30 10:15 - 05:57  (-4:17)
+reboot   system boot  6.14.0-37-generi Tue Jun 30 10:14 - 05:57  (-4:17)
+hamza    tty7         :0               Mon Jun 29 22:21 - 18:10  (-4:11)
+reboot   system boot  6.14.0-37-generi Mon Jun 29 22:21 - 18:10  (-4:10)
+hamza    tty7         :0               Sun Jun 28 22:48 - 18:32  (-4:16)
+reboot   system boot  6.14.0-37-generi Sun Jun 28 22:48 - 18:32  (-4:15)
+hamza    tty7         :0               Sat Jun 27 22:11 - 17:53  (-4:17)
+reboot   system boot  6.14.0-37-generi Sat Jun 27 22:10 - 17:53  (-4:17)
+hamza    tty7         :0               Fri Jun 26 20:08 - 18:13  (-1:55)
+reboot   system boot  6.14.0-37-generi Fri Jun 26 20:08 - 18:13  (-1:54)
+hamza    tty7         :0               Thu Jun 25 16:40 - 18:10  (01:29)
+reboot   system boot  6.14.0-37-generi Thu Jun 25 21:39 - 18:10  (-3:29)
+hamza    tty7         :0               Sun Jun 21 22:32 - 19:12  (-3:20)
+reboot   system boot  6.14.0-37-generi Sun Jun 21 22:32 - 19:12  (-3:20)
+hamza    tty7         :0               Sat Jun 20 22:10 - 18:36  (-3:33)
+reboot   system boot  6.14.0-37-generi Sat Jun 20 22:09 - 18:36  (-3:33)
+hamza    tty7         :0               Wed Jun 17 17:10 - 17:55  (00:44)
+reboot   system boot  6.14.0-37-generi Wed Jun 17 22:10 - 17:55  (-4:14)
+hamza    tty7         :0               Wed Jun 17 21:46 - 17:09  (-4:37)
+reboot   system boot  6.14.0-37-generi Wed Jun 17 21:46 - 17:09  (-4:36)
+hamza    tty7         :0               Wed Jun 17 19:44 - 15:25  (-4:19)
+reboot   system boot  6.14.0-37-generi Wed Jun 17 19:44 - 15:25  (-4:18)
+hamza    tty7         :0               Tue Jun 16 22:34 - 17:44  (-4:50)
+reboot   system boot  6.14.0-37-generi Tue Jun 16 22:33 - 17:44  (-4:49)
+hamza    tty7         :0               Sun Jun 14 06:47 - 07:02  (00:14)
+reboot   system boot  6.14.0-37-generi Sun Jun 14 11:39 - 07:02  (-4:36)
+hamza    tty7         :0               Thu Jun 11 22:28 - 17:30  (-4:58)
+reboot   system boot  6.14.0-37-generi Thu Jun 11 22:28 - 17:30  (-4:58)
+hamza    tty7         :0               Tue Jun  2 09:58 - 05:06  (-4:52)
+reboot   system boot  6.14.0-37-generi Tue Jun  2 09:58 - 05:06  (-4:52)
+hamza    tty7         :0               Tue May 19 16:41 - 16:42  (00:01)
+reboot   system boot  6.14.0-37-generi Tue May 19 21:41 - 16:43  (-4:58)
+hamza    tty7         :0               Mon May 18 23:26 - 18:54  (-4:32)
+reboot   system boot  6.14.0-37-generi Mon May 18 23:26 - 18:54  (-4:31)
+hamza    tty7         :0               Sun May 17 20:48 - 15:50  (-4:57)
+reboot   system boot  6.14.0-37-generi Sun May 17 20:48 - 15:50  (-4:57)
+reboot   system boot  6.14.0-37-generi Sun May 17 20:44 - 20:45  (00:00)
+hamza    tty7         :0               Sun May 17 20:27 - 15:44  (-4:43)
+reboot   system boot  6.14.0-37-generi Sun May 17 20:26 - 15:44  (-4:42)
+hamza    tty7         :0               Sun May 17 19:13 - 19:13  (00:00)
+reboot   system boot  6.14.0-37-generi Sun May 17 19:12 - 19:13  (00:00)
+hamza    tty7         :0               Sun May 17 19:11 - 19:12  (00:00)
+reboot   system boot  6.14.0-37-generi Sun May 17 19:11 - 19:12  (00:00)
+
+wtmp begins Sun May 17 19:11:30 2026
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ last -5
+[?2004lhamza    tty7         :0               Tue Jun 30 22:48    gone - no logout
+reboot   system boot  6.14.0-37-generi Tue Jun 30 22:47   still running
+hamza    tty7         :0               Tue Jun 30 10:15 - 05:57  (-4:17)
+reboot   system boot  6.14.0-37-generi Tue Jun 30 10:14 - 05:57  (-4:17)
+hamza    tty7         :0               Mon Jun 29 22:21 - 18:10  (-4:11)
+
+wtmp begins Sun May 17 19:11:30 2026
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ ll[K[Klastb
+[?2004llastb: cannot open /var/log/btmp: Permission denied
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ sudo lastb
+[?2004l[sudo] password for hamza: ******      
+root     pts/0                         Thu Jun 25 16:46 - 16:46  (00:00)
+root     pts/0                         Wed Jun 17 15:11 - 15:11  (00:00)
+root     pts/0                         Wed Jun 17 15:11 - 15:11  (00:00)
+root     pts/0                         Mon May 18 18:49 - 18:49  (00:00)
+root     pts/0                         Mon May 18 18:49 - 18:49  (00:00)
+
+btmp begins Mon May 18 18:49:18 2026
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ hwo
+[?2004lCommand 'hwo' not found, did you mean:
+  command 'who' from deb coreutils (9.4-3ubuntu6.2)
+  command 'h2o' from deb h2o (2.2.5+dfsg2-8)
+  command 'qwo' from deb qwo (0.5-4)
+Try: sudo apt install <deb name>
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ who
+[?2004lhamza    tty7         2026-06-30 22:48 (:0)
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ w
+[?2004l 18:00:48 up 13 min,  1 user,  load average: 0.23, 0.33, 0.27
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+hamza             -                22:48     ?     0.00s  0.09s lightdm --session-child 13 20
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ whohwosudo lastb[5Plastb -5[Kgrep -c "sshd" /var/log/auth.logi[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@faile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l2026-05-18T18:49:18.101192+00:00 hamza-Latitude-7490 su[6182]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+2026-05-18T18:49:44.502135+00:00 hamza-Latitude-7490 su[6185]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+2026-06-17T15:11:12.835447+00:00 hamza-Latitude-7490 su[7628]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+2026-06-17T15:11:27.252359+00:00 hamza-Latitude-7490 su[7630]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+2026-06-25T16:46:04.977244+00:00 hamza-Latitude-7490 su[2270]: [01;31m[KFAILED[m[K SU (to root) hamza on pts/0
+[?2004h]0;hamza@hamza-Latitude-7490: ~[01;32mhamza@hamza-Latitude-7490[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-06-30 18:02:20+00:00 [COMMAND_EXIT_CODE="0"]
